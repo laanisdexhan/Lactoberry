@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lactoberry</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <a href="index.html" class="brand-link">
+                    <img src="img/logo_definitivo.png" alt="Lactoberry logo" class="logo-image">
+                    <div class="brand-text">
+                        <span class="logo-lactoberry">Lactoberry</span>
+                        <span class="slogan">Marca oficial de productos lácteos</span>
+                    </div>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes.html">Quiénes Somos</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contenido_multimedia.html">Multimedia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Lactoberry</h1>
+            <p>La fusión ideal entre la tradición láctea y la innovación andina. Salud, sabor y sostenibilidad en cada porción.</p>
+            <ul class="hero-list">
+                <li>Fórmulas naturales con sabor auténtico.</li>
+                <li>Apoyo a agricultores andinos.</li>
+                <li>Opciones para toda la familia.</li>
+            </ul>
+            <div class="hero-actions">
+                <button class="btn-cta" id="btnDescubrir">Descubrir Sabores</button>
+                <a class="btn-cta" href="quienes.html" style="background:transparent;border:2px solid rgba(255,255,255,0.25);">Conócenos</a>
+            </div>
+        </div>
+        <div class="hero-right">
+            <img src="img/logo_definitivo.png" alt="Lactoberry logo" class="hero-logo-simple">
+        </div>
+    </section>
+
+    <section id="nosotros" class="company-overview">
+        <div class="info-box">
+            <h2 class="section-title">Sobre Lactoberry</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Lactoberry es una línea premium de productos lácteos enriquecidos con ingredientes funcionales de origen andino. Desde nuestras granjas hasta tu mesa, aplicamos prácticas sostenibles, trazabilidad completa y un compromiso real con la comunidad.</p>
+                    <div class="features-grid">
+                        <div class="feature">
+                            <h4>Calidad Garantizada</h4>
+                            <p>Controles rigurosos en cada etapa de producción y seguimiento nutricional.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Sostenibilidad</h4>
+                            <p>Proveedores locales y procesos responsables con el medio ambiente.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Innovación</h4>
+                            <p>Combinamos tradición láctea con superalimentos andinos.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Bienestar Familiar</h4>
+                            <p>Fórmulas diseñadas para apoyar la salud, energía y crecimiento de toda la familia.</p>
+                        </div>
+                    </div>
+                    <div style="margin-top:18px;"><a href="productos.html" class="btn-cta">Ver Productos</a></div>
+                </div>
+                <div class="about-mascot">
+                    <img src="img/aranchita2_mascota.png" alt="Aranchita mascota" class="mascot-about-image">
+                </div>
+            </div>
+            <div class="highlight-card">
+                <h4>Nuestra promesa</h4>
+                <p>Producción responsable, ingredientes naturales y atención cercana para cada cliente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos" class="products-section">
+        <h2 class="section-title">Nuestra Línea</h2>
+        <p style="text-align:center;max-width:800px;margin:0 auto 30px;">Lactoberry ofrece una familia de productos pensados para distintos estilos de vida: desde opciones energéticas hasta fórmulas sin azúcar, pasando por alternativas infantiles pensadas para toda la familia.</p>
+        <div class="products-grid">
+
+            <div class="product-card">
+                <div class="product-icon">🥛</div>
+                <h3>Lactoberry Original</h3>
+                <p>Leche semidescremada con extracto de chocho y jugo de arándanos. Fuente de proteína y antioxidantes.</p>
+                <a href="productos.html#original" class="btn-cta" style="margin-top:12px;display:inline-block;">Más detalles</a>
+            </div>
+
+            <div class="product-card">
+                <div class="product-icon">🍓</div>
+                <h3>Lactoberry Yogurt Pro</h3>
+                <p>Yogurt alto en proteína, con probióticos y trozos de arándano para energía sostenida.</p>
+                <a href="productos.html#yogurt" class="btn-cta" style="margin-top:12px;display:inline-block;">Más detalles</a>
+            </div>
+
+            <div class="product-card">
+                <div class="product-icon">🌱</div>
+                <h3>Lactoberry Zero</h3>
+                <p>Deslactosado y sin azúcares añadidos, pensado para quienes cuidan su línea sin renunciar al sabor.</p>
+                <a href="productos.html#zero" class="btn-cta" style="margin-top:12px;display:inline-block;">Más detalles</a>
+            </div>
+
+            <div class="product-card">
+                <div class="product-icon">🧒</div>
+                <h3>Lactoberry Kids</h3>
+                <p>Batido suave con calcio natural y fibra, ideal para el desayuno de los más pequeños.</p>
+                <a href="productos.html#kids" class="btn-cta" style="margin-top:12px;display:inline-block;">Más detalles</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="product-showcase-section">
+        <h2 class="section-title">Presentación moderna de producto</h2>
+        <p style="text-align:center;max-width:820px;margin:0 auto 30px;">Descubre nuestros productos con una presentación visual fresca y moderna. Aquí verás vasos de leche, piezas de empaque y mensajes directos sobre cada propuesta.</p>
+        <div class="product-showcase">
+            <article class="showcase-card">
+                <img src="img/WhatsApp Image 2026-06-01 at 15.18.08.jpeg" alt="Vaso de yogurt Lactoberry">
+                <div class="showcase-info">
+                    <h4>Yogurt Pro en vaso</h4>
+                    <p>Formato elegante que destaca la frescura del producto y sus ingredientes naturales.</p>
+                    <span>Proteína + probióticos</span>
+                </div>
+            </article>
+            <article class="showcase-card">
+                <img src="img/top-view-delicious-blue-matcha-recipe.jpg" alt="Presentación de producto Lactoberry">
+                <div class="showcase-info">
+                    <h4>Ambiente invitante</h4>
+                    <p>Escena visual que transmite un estilo de vida saludable y moderno para la marca.</p>
+                    <span>Estilo de vida Lactoberry</span>
+                </div>
+            </article>
+            <article class="showcase-card">
+                <img src="img/portadasies.png" alt="Afiche promocional de producto Lactoberry">
+                <div class="showcase-info">
+                    <h4>Afiche promocional</h4>
+                    <p>Composición visual atractiva para redes y material de venta.</p>
+                    <span>Impacto y calidad visual</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="equipo" class="team-preview">
+        <h2 class="section-title">Nuestro Equipo</h2>
+        <p style="text-align:center;max-width:700px;margin:0 auto 20px;">Un equipo multidisciplinario que une ciencia de alimentos, agricultura y marketing para llevar Lactoberry a hogares de todo el país.</p>
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="product-icon">👩</div>
+                <h4>Emily Portilla</h4>
+                <p>Dirección General — lidera proyectos de innovación y estrategia.</p>
+            </div>
+            <div class="team-member">
+                <div class="product-icon">🎨</div>
+                <h4>Abigail Zapata</h4>
+                <p>Dirección Creativa — responsable de comunicación visual y marca.</p>
+            </div>
+            <div class="team-member">
+                <div class="product-icon">📊</div>
+                <h4>Odalys Narváez</h4>
+                <p>Dirección de Producto — supervisa calidad y lanzamiento de fórmulas.</p>
+            </div>
+            <div class="team-member">
+                <div class="product-icon">🎥</div>
+                <h4>Dylan Córdova</h4>
+                <p>Director de Producción Audiovisual — crea contenido multimedia de marca.</p>
+            </div>
+        </div>
+        <div style="text-align:center;margin-top:18px;"><a href="quienes.html" class="btn-cta">Conoce al equipo completo</a></div>
+    </section>
+
+    <section class="highlights-section">
+        <h2 class="section-title">Por qué elegir Lactoberry</h2>
+        <div class="highlights-grid">
+            <div class="highlight-card">
+                <h4>Ingredientes naturales</h4>
+                <p>Utilizamos solo ingredientes puros y activos andinos, sin químicos innecesarios.</p>
+            </div>
+            <div class="highlight-card">
+                <h4>Atención personalizada</h4>
+                <p>Te ayudamos a elegir el producto ideal según tus necesidades y estilo de vida.</p>
+            </div>
+            <div class="highlight-card">
+                <h4>Envíos rápidos</h4>
+                <p>Entregas a nivel nacional con empaques seguros y sustentables.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2026 Lactoberry. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

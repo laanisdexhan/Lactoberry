@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-labelledby="miaLogoTitle">
+  <title id="miaLogoTitle">Logo MIA</title>
+  <rect width="120" height="120" rx="24" fill="#5D2E8C" />
+  <path d="M30 42h12c6 0 10 4 10 10s-4 10-10 10H40v16h-10V42zm10 16h10c2.8 0 5-2.2 5-5s-2.2-5-5-5H40v10z" fill="#F4F1EA" />
+  <path d="M72 42h10l14 28 14-28h10l-18 36 20 30h-11l-14-22-14 22h-11l20-30-18-36z" fill="#F4F1EA" />
+</svg>
